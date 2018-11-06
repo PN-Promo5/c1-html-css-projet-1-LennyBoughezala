@@ -1,0 +1,386 @@
+/* regles general */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, ul {
+  margin: 0;
+  padding: 0;
+}
+/* site */
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+h1 {
+  font-size: 150px;
+  background-color: rgba(234, 234, 234,0.6);
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+  color: #fb9094;
+  font-family: 'Allan', cursive;
+}
+h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 12px 0;
+  text-align: center;
+}
+h3 {
+  font-size: 30px;
+  margin: 10px 0;
+  color: #fb9094;
+}
+h4{
+  font-size: 50px;
+  color: white;
+}
+h5{
+margin-top: 10px;
+}
+h5:hover{
+  color: #fb9094;
+}
+h6{
+  font-size: 35px;
+  padding-top: 50px;
+}
+
+/* Navigateur */
+.menuPrincipal{
+  position: fixed;
+  width: 100%;
+  background-color: #ffffff;
+  top: 0;
+  font-weight: 600;
+  z-index: 1;
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.25);
+
+}
+  .menuPrincipal li {
+  display: inline-block;
+  padding: 13px 39px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.menuPrincipal a {
+  color: black;
+  text-decoration: none;
+}
+.menuPrincipal  a:hover{
+  color: #fb9094;
+}
+.containerNav {
+  font-size: 1.3rem;
+}
+.logoWhite{
+  height: 65px;
+}
+.iconeNav{
+  height: 20px;
+}
+.formulaire{
+  display:inline-block;
+
+}
+.formulaire .champ{
+  width:600px;
+  height:35px;
+}
+.formulaire .boutonRecherche{
+  background-image: url('../img/loupe.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+.champRecherche{
+  border-radius: 50px;
+  margin-bottom: 8px;
+}
+
+/* header */
+.home-header {
+  height: 600px;
+  background-image: url('../img/headerCerisier.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tittlefirt {
+  display: flex;
+  width: 100%;
+}
+.btn {
+  color: black;
+  background-color: #fb9094;
+  font-size: 30px;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 900;
+}
+
+.btn:hover {
+  background-color: rgb(242, 152, 152, 0.8);
+  box-shadow: 5px 5px 2px 0 rgba(0, 0, 0, .16), 0 2px 5px 0 rgba(0, 0, 0, .12);
+}
+
+/* description */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.imageC{
+  width: 683px;
+}
+.containerImg {
+  content: left;
+}
+
+.containerTxt {
+  content: right;
+  padding: 10px;
+  justify-content: center;
+}
+
+/* avantages */
+.avantages {
+  clear: both;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.containeravantages {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.goodpoint {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 25px;
+}
+.icone{
+  height: 140px;
+}
+.branche{
+height: 30px;}
+
+/* bandeau publicitaire */
+.bandeaupub {
+  height: 250px;
+  background-image: url('../img/bandeauPub1.jpg');
+  background-size: 100%;
+  background-position: top;
+  background-attachment: inherit;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bandeaupub .btnpub {
+  margin-bottom: 55px;
+  font-size: 35px;
+}
+
+.bandeaupub h4 {
+  font-size: 65px;
+  margin-top: 25px;
+}
+
+
+/* produits */
+.productRow {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.productRow .product {
+  flex: 1;
+  margin-right: 20px;
+  border-radius: 0px 0px 50px 50px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+   background-color: #eaeaea;
+}
+
+.product:hover {
+ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.productRow .product:last-of-type {
+  margin-right: 0;
+}
+
+.product header {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  position: relative;
+}
+
+.product:nth-child(1) header {
+  background-image: url("../img/teeShirt2.png");
+}
+
+.product:nth-child(2) header {
+  background-image: url("../img/teeShirt1.png");
+}
+
+.product:nth-child(3) header {
+  background-image: url("../img/teeShirt3.png");
+}
+
+.product {
+  text-align: center;
+}
+.product p{
+  height: 45px;
+}
+
+.price {
+  font-size: 35px;
+  font-weight: bold;
+  color: #fb9094;
+}
+
+.addFav {
+  font-size: 25px;
+}
+
+.addFav .far {
+  position: absolute;
+  right: 2px;
+  color: #fb9094;
+}
+
+.far:hover {
+  font-size: 40px;
+  transition: all 0.8s;
+}
+
+.btnPanier {
+  padding: 30px;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  border-radius: 0px 0px 50px 50px;
+  text-decoration: none;
+}
+
+.btnPanier:hover {
+  background-color: rgb(242, 152, 152, 0.7);
+}
+
+footer{
+  background-color: #eaeaea;
+  border-radius: 0px 0px 50px 50px;
+}
+.footerCase{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.logoFooter{
+justify-content: center;
+}
+.row{
+display: flex;
+justify-content: space-around;
+}
+.collumn{
+  text-align: start;
+  width: 300px;
+}
+.collumn a{
+  text-decoration: none;
+  color: black;
+}
+.containerForm{
+  width: 100%;
+display: flex;
+align-items: center;
+ flex-direction: column;
+ text-align: start;
+ font-size: 25px;
+ margin-top: 5px;
+}
+.fieldForm{
+  border: none;
+}
+#firstName{
+width: 100%;
+height: 30px;
+font-size: 15px;
+border: none;
+}
+#adresseMail{
+width: 100%;
+height: 30px;
+font-size: 15px;
+border: none;
+}
+#textZone{
+  width: 100%;
+  height: 100px;
+  border: none;
+  resize: none;
+}
+#valide{
+  height: 50px;
+  width: 10px;
+  font-size: 15px;
+}
+.btnForm{
+  margin-top: 15px;
+}
+.arrow{
+  display: flex;
+  justify-content: right;
+}
+.arrowUp{
+  height: 50px;
+  margin-right: 40px;
+}

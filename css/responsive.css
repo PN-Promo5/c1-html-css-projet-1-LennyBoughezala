@@ -1,0 +1,115 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+h2{
+  font-size: 30px;
+  margin-top: 30px;
+}
+h4{
+  font-size:15px;
+}
+h5{
+  font-size: 12px;
+}
+h6{
+  font-size: 20px;
+  padding-top: 30px;
+}
+.containerNav{
+  font-size: 8px;
+}
+.logoWhite{
+  height: 50px;
+}
+.menuPrincipal li{
+  padding: 0px 4px;
+}
+.formulaire .boutonRecherche{
+  display: none;
+}
+.champRecherche{
+  display: none;
+}
+.iconeNav{
+  height: 13px;
+}
+/* image header */
+.home-header{
+  background-position: initial;
+  height: 210px;
+}
+.home-header h1{
+  margin-top: 70px;
+  font-size: 40px;
+}
+.tittlefirt{
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* bouton header */
+.btn{
+  font-size: 10px;
+  padding: 10px 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+/* descrption */
+.container{
+  display: block;
+}
+.imageC{
+  width: 100%;
+}
+
+/* avantages */
+.goodpoint{
+  flex-direction: column;
+}
+.iconetexte p{
+  margin-bottom: 20px;
+}
+
+/* bandeaupub */
+
+.bandeaupub{
+  height: 145px;
+  background-position: center;
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+}
+.bandeaupub .btnpub{
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.bandeaupub h4{
+  font-size: 25px;
+  text-align: center;
+}
+
+/* Produits */
+
+.productRow{
+  flex-direction: column;
+}
+.productRow .product{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* footer */
+.footerRow{
+  margin-top: 50px;
+}
+
+.footerCU a{
+  font-size: 10px;
+}
+
+.row{
+  display: inherit;
+  margin: 10px;
+}
+.arrowUp{
+  margin-right: 5px;
+}
